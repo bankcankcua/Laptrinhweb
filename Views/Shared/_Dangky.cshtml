@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <title>Đăng kí</title>
+</head>
+</html>
+<html>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+    <fieldset id="basicInfo" style="width:auto; height:auto; background-color:whitesmoke">
+        <p><h1>Đăng kí</h1></p>
+
+        <tr>
+            <label for="email">Email:</label>
+            <br />
+            <input type="email" id="email" onkeydown="if(event.keyCode === 13) {event.preventDefault(); document.getElementById('password').focus();}" required>
+        </tr>
+        <br />
+        <br />
+        <tr>
+
+            <label for="password">Mật khẩu:</label>
+            <br />
+            <input type="password" id="password" onkeydown="if(event.keyCode === 13) {event.preventDefault(); document.getElementById('submit').click();}" required>
+
+        </tr>
+        <br />
+        <br />
+        <input type="checkbox" /> Ghi nhớ
+        <br />
+        <br />
+        <button type="submit" id="submit" style="width:auto; height:auto;color:white; background-color:forestgreen">
+            Đăng kí
+        </button>
+    </fieldset>
+</body>
+</html>

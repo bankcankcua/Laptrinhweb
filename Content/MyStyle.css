@@ -1,0 +1,46 @@
+﻿﻿body {
+    margin: 0;
+}
+/*masterLayout*/
+#div-top {
+    height: 25px;
+    background-color: lightgray;
+}
+
+#div-top2 {
+    height: 140px;
+    background: url("pic2/top2.png")
+}
+
+#div-top3 {
+    height: 43px;
+    background: url("pic2/top3.png")
+}
+
+#div-top4 {
+    height: auto;
+    background: url("pic2/content.jpg");
+    position: relative;
+}
+
+#div-footer1 {
+    height: 150px;
+    background: url("pic2/top2.png")
+}
+
+#div-footer {
+    background: url("pic2/top3.png");
+    height: 50px;
+    bottom: 0px;
+    text-align: center;
+    left: 50%;
+    padding-top: 25px;
+}
+
+#book-detail {
+    background-image: url(pic2/top2.png),url(pic2/content.jpg);
+    margin: 10px auto;
+    padding: 30px;
+    width: 940px;
+    min-height: 400px;
+}
